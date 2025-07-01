@@ -216,13 +216,13 @@ body {
   background: white;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
 }
 
 .recipe-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
 .recipe-image-container {
@@ -239,7 +239,7 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: rgba(255,255,255,0.9);
+  background: rgba(0,0,0,0.4);
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -251,10 +251,12 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .favorite-btn:hover {
-  background: white;
+  background: rgba(0,0,0,0.6);
   transform: scale(1.1);
 }
 
@@ -614,7 +616,7 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: rgba(255,255,255,0.9);
+  background: rgba(0,0,0,0.4);
   border: none;
   border-radius: 50%;
   width: 50px;
@@ -626,10 +628,12 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .favorite-btn-large:hover {
-  background: white;
+  background: rgba(0,0,0,0.6);
   transform: scale(1.1);
 }
 

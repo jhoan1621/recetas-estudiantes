@@ -7,4 +7,5 @@ export const useRecipes = () => {
     throw new Error('useRecipes debe ser usado dentro de un RecipeProvider');
   }
   return context;
+  
 };
